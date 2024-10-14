@@ -63,7 +63,7 @@ int main(){
             return 0;
         }
         printf("client says: %s\n", rbuff);
-        char wbuff[] = "world";
+        char wbuff[] = "who are you";
         write(connfd, wbuff, strlen(wbuff));
         close(connfd);
     }
